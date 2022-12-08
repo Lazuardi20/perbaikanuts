@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <p id="a"></p>
+    <p id="b"></p>
+    <p id="c"></p>
+    <p id="da"></p>
+    <p id="db"></p>
+    <p id="e"></p>
+    <p id="fa"></p>
+    <p id="fb"></p>
+    <p id="g"></p>
+    <p id="h"></p>
+
+    <script>
+    var r1 = 3;
+    var r2 = 6;
+    var r3 = 1;
+    var r4 = 1;
+
+    let rp = r3/r1 + r4/r2;
+    let rp2 = 1 / rp;
+    document.getElementById("a").innerHTML =
+    "Jawaban Nomor 1a: " + rp2;
+    
+    
+    // let v = i * r;
+    let v = 15;
+    let r = 1;
+    let i = v / r;
+
+    // if r = 3 ohm
+    let i2 = v / 3;
+    // if r = 6 ohm
+    let i3 = v / 6;
+    
+    document.getElementById("b").innerHTML =
+    "Jawaban Nomor 1b: " + i;
+    
+    document.getElementById("c").innerHTML =
+    "Jawaban Nomor 1c: " + i2 + "A" + " & " + i3 + "A";
+    
+    // Nomor 2
+    let cp = 1/5 + 1/20;
+    let cp1 = 1 / cp;
+
+    document.getElementById("da").innerHTML =
+    "Jawaban Nomor 2a: " + cp1;
+
+    // Nomor 2b
+    let q = c * v_b;
+    let c = 20 * Math.pow(10, -3);
+    let v_b = 15;
+
+    document.getElementById("db").innerHTML =
+    "Jawaban Nomor 2b: " + c;
+
+    let v_1 = 110;
+    let i_1 = 2.8;
+    let r_1 = v_1 / i_1;
+
+    document.getElementById("e").innerHTML =
+    "Jawaban Nomor 3: " + r_1 + " Ohm";
+
+    let v_2 = 110;
+    let i_2 = 5.5;
+    let r_2 = v_2 / i_2;
+
+
+    document.getElementById("fa").innerHTML =
+    "Jawaban Nomor 4a: " + r_2 + " Ohm";
+    document.getElementById("fb").innerHTML =
+    "Jawaban Nomor 4b: " + r_2 + " Ohm";
+    
+    // let N = Math.pow(200, 2); 
+    l = 4 = 4 * Math.pow(10, -2);
+    a = 0.5 = 5 * Math.pow(10,-5);
+
+    let N = 200; 
+    let u = 4; 
+    let A = 5 * Math.pow(10, -5);
+    document.getElementById("fa").innerHTML =
+    "Jawaban Nomor 5a: " + r_2 + " Ohm";
+    
+
+    
+    </script>
+</body>
+</html>
